@@ -1,0 +1,8 @@
+$main-color: purple;
+$size: 1rem;
+
+body {
+  margin: 0;
+  padding: $size;
+  background-color: $main-color;
+}
