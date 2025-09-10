@@ -1,8 +1,23 @@
-$main-color: purple;
-$size: 1rem;
+@import "./partials/colors";
+@import "./partials/reset";
+@import "./partials/spacings";
 
-body {
-  margin: 0;
-  padding: $size;
-  background-color: $main-color;
+header {
+  min-height: 200px;
+}
+
+header ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav img {
+  max-height: 50px;
+  width: auto;
+  height: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
 }

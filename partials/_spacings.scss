@@ -1,0 +1,19 @@
+$spacing-scale: (
+  xs: 8px,
+  s: 12px,
+  m: 16px,
+  l: 24px,
+  xl: 32px,
+  xxl: 48px,
+);
+
+@each $axis in (block, inline) {
+  @each $name, $value in $spacing-scale {
+    .p-#{$axis}-#{$name} {
+      padding-#{$axis}: $value;
+    }
+    .m-#{$axis}-#{$name} {
+      margin-#{$axis}: $value;
+    }
+  }
+}
