@@ -13,9 +13,11 @@ header {
   }
 
   nav ul li {
+    a {
+      color: $primary-color;
+    }
     display: inline-block;
     margin: 10px;
-    color: $primary-color;
   }
 
   nav img {
@@ -26,11 +28,33 @@ header {
 
 .inner-container {
   display: flex;
+  background-color: $bg-hero-color;
 
   .hero-content {
     width: 45%;
+    h1 {
+      font-size: 3rem;
+      color: $texthero-color;
+      margin: 2rem 1rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+      font-weight: 500;
+      color: $texthero-color;
+      margin: 2rem 1rem;
+    }
+
+    button {
+      background-color: black;
+      margin: 4px;
+      border-radius: 30%;
+      box-shadow: 4px 4px 6px black;
+      color: $bg-hero-color;
+    }
   }
   .hero-media {
+    background-color: aqua;
     width: 55%;
   }
 }

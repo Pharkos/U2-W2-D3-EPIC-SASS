@@ -125,6 +125,8 @@ header nav {
 header nav ul li {
   display: inline-block;
   margin: 10px;
+}
+header nav ul li a {
   color: #ffffff;
 }
 header nav img {
@@ -134,10 +136,30 @@ header nav img {
 
 .inner-container {
   display: flex;
+  background-color: #640fc5;
 }
 .inner-container .hero-content {
   width: 45%;
 }
+.inner-container .hero-content h1 {
+  font-size: 3rem;
+  color: #f4f4f4;
+  margin: 2rem 1rem;
+}
+.inner-container .hero-content p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #f4f4f4;
+  margin: 2rem 1rem;
+}
+.inner-container .hero-content button {
+  background-color: black;
+  margin: 4px;
+  border-radius: 30%;
+  box-shadow: 4px 4px 6px black;
+  color: #640fc5;
+}
 .inner-container .hero-media {
+  background-color: aqua;
   width: 55%;
 }/*# sourceMappingURL=styles.css.map */
